@@ -1,0 +1,76 @@
+Exercícios de HTML para praticar
+🧩 Exercício 1 – Link de download
+
+Crie uma página HTML com:
+
+Um título “Área de Downloads”
+
+Dois links de download:
+
+baixar um PDF
+
+baixar um arquivo ZIP
+
+Use o atributo download.
+
+🧩 Exercício 2 – Imagem responsiva
+
+Crie um exemplo usando <picture> com:
+
+imagem pequena → até 600px
+
+imagem média → até 1000px
+
+imagem grande → padrão (<img>)
+
+Estrutura sugerida:
+
+imagens/
+foto-p.png
+foto-m.png
+foto-g.png
+
+Quando diminuir o navegador, a imagem deve trocar automaticamente.
+
+🧩 Exercício 3 – Áudio
+
+Adicione um áudio na página com:
+
+controles visíveis
+
+arquivo mp3
+
+Estrutura sugerida:
+
+audio/
+musica.mp3
+
+O usuário deve poder dar play no áudio.
+
+🧩 Exercício 4 – Vídeo
+
+Adicione um vídeo usando a tag <video> com:
+
+controles
+
+largura de 500px
+
+Estrutura sugerida:
+
+video/
+meuvideo.mp4
+🧩 Exercício 5 – Vídeo do YouTube
+
+Adicione um vídeo do YouTube usando <iframe>.
+
+O vídeo pode ser qualquer um.
+
+🎯 Desafio (nível um pouco maior)
+
+Crie uma página chamada “Minha página multimídia” contendo:
+
+1️⃣ Um título principal
+2️⃣ Uma imagem responsiva (<picture>)
+3️⃣ Um áudio
+4️⃣ Um vídeo
+5️⃣ Um link de download de PDF
