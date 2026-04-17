@@ -4,8 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treinando Responsividade</title>
+
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            min-width: 1000px;
+        }
+
+        th, td{
+            border:1px solid black;
+            padding: 10px;
+        }
+
+        tbody tr:nth-child(even) td{
+            background-color: rgba(205, 204, 204, 0.479);
+        }
+
+        #container{
+            overflow-x: auto;
+        }
+    </style>
 </head>
 <body>
-    
+
+     <div id="container">
+        <table>
+            <colgroup>
+                <col style="background-color: grey;">
+                <col span="6" style="background-color: lightblue;">
+                <col span="6" style="background-color: lightyellow;">
+            </colgroup>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Televisão</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                </tr>
+                <tr>
+                    <td>Geladeira</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                </tr>
+                <tr>
+                    <td>Microondas</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                </tr>
+                <tr>
+                    <td>Sofá</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+        
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
 </html>
