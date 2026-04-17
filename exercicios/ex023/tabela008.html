@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Sobre Tabelas</title>
+
+    <style>
+
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+       tbody tr:nth-child(even) td{
+       background-color: rgba(0,0,0,0.1);
+       }
+        /*th{
+            background-color: gray;
+        }*/
+
+
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col span="2" style="background-color:pink;">
+            <col span="2" style="background-color:orange;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Movimento</th>
+                <th>Carga Inicial</th>
+                <th>Carga Final</th>
+                <th>PR</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Snatch</td>
+                <td>20 kg</td>
+                <td>50 kg</td>
+                <td>SIM</td>
+            </tr>
+
+            <tr> 
+                <td>Heang Clean</td>
+                <td>25 kg</td>
+                <td>55 kg</td>
+                <td>SIM</td>
+            </tr>
+
+            <tr>
+                <td>Clean</td>
+                <td>30 kg</td>
+                <td>60 kg</td>
+                <td>SIM</td>
+            </tr>
+
+            <tr>
+                <td>Truster</td>
+                <td>35 kg</td>
+                <td>55 kg</td>
+                <td>NÃO</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
